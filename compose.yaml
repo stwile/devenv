@@ -1,11 +1,11 @@
 services:
   web:
-    build: ./
+    build: ./docker
     container_name: web
     ports:
       - "8080:80"
     volumes:
-      - ./:/var/www/html
+      - ./app:/var/www/html
     depends_on:
       - db
 
