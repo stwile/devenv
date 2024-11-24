@@ -163,6 +163,14 @@ $ vendor/bin/phpunit --version
 root@e7c45759d228:/var/www/html# vendor/bin/phpunit --version
 ```
 
+### コマンド実行環境への接続を切断
+
+コマンド実行環境での作業が終わったら、次のコマンドを入力して接続を切断します。
+
+```sh
+root@e7c45759d228:/var/www/html# exit
+```
+
 ### 環境の終了方法
 
 環境が起動している状態で、以下の手順を行うと環境が終了します。
@@ -199,7 +207,13 @@ make php-cli
 root@e7c45759d228:/var/www/html# php chapter03/03-01_array1.php
 ```
 
-お試しが一通り完了したら、お試し環境を終了しておきましょう。
+お試しが一通り完了したら、コマンド実行環境への接続を切断します。
+
+```sh
+root@e7c45759d228:/var/www/html# exit
+```
+
+最後は、お試し環境を終了しておきましょう。
 
 ```sh
 make down
