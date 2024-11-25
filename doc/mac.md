@@ -90,7 +90,7 @@ Docker のセットアップが完了したので、Visual Studio Code（これ�
 
 VS Code の入手がまだの方は、まずは入手から行ってください。
 
-以下のURLの「Download for Mac」をクリックすると、zipファイルがダウンロードされます。zipファイルを展開すると VS Code のアプリケーションファイルがあるので、それをアプリケーションフォルダに移動しましょう。
+以下のURLの「Download for macOS」をクリックすると、zipファイルがダウンロードされます。zipファイルを展開すると VS Code のアプリケーションファイルがあらわれるので、それをアプリケーションフォルダに移動しましょう。
 
 - https://code.visualstudio.com/
 
