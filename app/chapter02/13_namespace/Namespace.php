@@ -2,8 +2,8 @@
 
 namespace Utilities;
 
-require_once __DIR__ . "/02-08-01_Utilities.php";
-require_once __DIR__ . "/02-08-01_StringHelper.php";
+require_once __DIR__ . "/Utilities.php";
+require_once __DIR__ . "/StringHelper.php";
 
 // 要素名だけで使用する
 $logger = new Logger();
