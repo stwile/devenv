@@ -1,4 +1,4 @@
-FROM php:8.3-apache
+FROM php:8.4-apache
 
 RUN apt-get update \
   && apt-get install -y \
@@ -10,6 +10,6 @@ RUN apt-get update \
   && ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
 ENV COMPOSER_ALLOW_SUPERUSER 1
-COPY --from=composer:2.7.9 /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2.8.5 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
